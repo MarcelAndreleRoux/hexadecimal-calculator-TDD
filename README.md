@@ -24,12 +24,12 @@ The calculator’s only restriction is that it will only take inputs of up to 2 
 
 # Technical Stack:
 
-Frontend Framework: Next.js with TypeScript
-Styling: Tailwind CSS
-Backend (History): Node.js server for API endpoints
-Version Control: Git with GitHub repository
-CI/CD: GitHub Actions for automated testing
-IDE: Visual Studio Code
-Containerization: Docker
-Cloud Deployment: AWS services
+* Frontend Framework: Next.js with TypeScript
+* Styling: Tailwind CSS
+* Backend: Node.js server for API endpoints
+* Version Control: Git with GitHub repository
+* CI/CD: GitHub Actions for automated testing
+* IDE: Visual Studio Code
+* Containerization: Docker
+* Cloud Deployment: AWS services
 
