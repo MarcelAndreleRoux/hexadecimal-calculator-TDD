@@ -4,7 +4,7 @@ const hexRegex = /^[0-9A-Fa-f]+$/;
 
 export function hexAdd(a: string, b: string): string {
   if (a.length > 2 || b.length > 2) {
-    throw new Error("Wrong input size larger than 2 digits");
+    throw new Error("Input number must be up to 2 digits");
   }
 
   if (!hexRegex.test(a) || !hexRegex.test(b)) {
