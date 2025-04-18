@@ -16,10 +16,10 @@ describe("Calculator Functions", () => {
 
   it("should throw an error for wrong input size", () => {
     expect(() => hexAdd("FFF", "1")).toThrow(
-      "Wrong input size larger than 2 digits"
+      "Input number must be up to 2 digits"
     );
     expect(() => hexAdd("1", "FFF")).toThrow(
-      "Wrong input size larger than 2 digits"
+      "Input number must be up to 2 digits"
     );
   });
 
@@ -34,7 +34,7 @@ describe("Calculator Functions", () => {
 
   it("should throw an error if result exceeds 4 digits", () => {
     expect(() => hexAdd("FF", "FF01")).toThrow(
-      "Wrong input size larger than 2 digits"
+      "Input number must be up to 2 digits"
     );
   });
 
