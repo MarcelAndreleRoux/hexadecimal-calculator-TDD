@@ -19,7 +19,7 @@ describe("Calculator Add Funtion", () => {
 
   it("should multiply 1 with FF", () => {
     cy.get('[data-testid="1"]').click();
-    cy.get('[data-testid="/"]').click();
+    cy.get('[data-testid="*"]').click();
     cy.get('[data-testid="F"]').click();
     cy.get('[data-testid="F"]').click();
     cy.get('[data-testid="equals-btn"]').click();
