@@ -29,7 +29,7 @@ describe("Calculator Add Funtion", () => {
   });
 
   it("should multiply FF with FF", () => {
-    cy.get('[data-testid="E"]').click();
+    cy.get('[data-testid="F"]').click();
     cy.get('[data-testid="F"]').click();
     cy.get('[data-testid="*"]').click();
     cy.get('[data-testid="F"]').click();
